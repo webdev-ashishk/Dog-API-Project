@@ -51,5 +51,15 @@ async function loadByBreed(breed) {
 }
 
 function createSlideShow(images) {
-  console.log(images);
+  // console.log(images);
+  document.getElementById("slideshow").innerHTML = `
+  <div
+  class="slide"
+  style="
+    background-image: url('${images[0]}');
+  "
+>
+  <!-- slide -->
+</div>
+  `;
 }
