@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   font-size: 2rem;
+  margin: 0 4px 0 0;
 }
 
 .app {
@@ -26,13 +27,13 @@ body {
   font-size: 2rem;
 }
 .slideshow {
-  /* flex: au; */
-  height: 100%;
+  /* width: 100%; */
+  padding: 285px;
   color: white;
   background-color: #262626;
   position: relative;
 }
-.slideshow > * {
+.slide {
   flex: 1;
   color: white;
   position: absolute;
